@@ -6,42 +6,45 @@
     <title>home</title>
     <link rel="stylesheet" href="./scss/style.scss">
 </head>
-<body>
+<body class="home">
     <header>
-        <nav class="navbar">
-            <a href="/" class="navbar__LOGO"> SASS</a>
-        <div class="navbar__bars"><i class="fas fa-bars"></i></div>
-        <div class="navbar__menu">
-           <a href="/" class="navbar__menu--links">home</a>
-           <a href="/" class="navbar__menu--links">product</a>
-           <a href="/" class="navbar__menu--links">services</a>
-           <a href="/" class="navbar__menu--links" id="button">sing in</a>
-        </div>
+       <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi__toggle">
+
+        <label for="navi__toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__items">
+                    <a href="#" class="navigation__link"></a>
+                    <span>01</span>about technology
+                </li>
+                <li class="navigation__items">
+                    <a href="#" class="navigation__link"></a>
+                    <span>01</span>future technology
+                </li>
+                <li class="navigation__items">
+                    <a href="#" class="navigation__link"></a>
+                    <span>01</span>latest technology
+                </li>
+                <li class="navigation__items">
+                    <a href="#" class="navigation__link"></a>
+                    <span>01</span>blockchain
+                </li>
+                <li class="navigation__items">
+                    <a href="#" class="navigation__link"></a>
+                    <span>01</span>future
+                </li>
+
+            </ul>
+
         </nav>
-        <div class="hero">
-            <div class="hero__container">
-                <div class="hero__container--left">
-                    <h1>they are coming</h1>
-                    <h2>be prepared</h2>
-                    <p>sing up now to joing the list</p>
-                    <button class="hero__container--btn">
-                        <a href="#">sing up</a>
-                    </button>
-                </div>
-            </div>
-             <div class="hero__container--right">
-                <img src="./images/img-2.svg" alt="alien" class="hero__container--img">
 
-             </div>
-        </div>
 
+       </div>
     </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-    
-</body>
-</html>
+        
