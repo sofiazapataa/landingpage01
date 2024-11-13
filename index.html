@@ -6,45 +6,68 @@
     <title>home</title>
     <link rel="stylesheet" href="./scss/style.scss">
 </head>
-<body class="home">
-    <header>
-       <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi__toggle">
 
-        <label for="navi__toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-        </label>
-
-        <div class="navigation__background">&nbsp;</div>
-
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
-                <li class="navigation__items">
-                    <a href="#" class="navigation__link"></a>
-                    <span>01</span>about technology
-                </li>
-                <li class="navigation__items">
-                    <a href="#" class="navigation__link"></a>
-                    <span>01</span>future technology
-                </li>
-                <li class="navigation__items">
-                    <a href="#" class="navigation__link"></a>
-                    <span>01</span>latest technology
-                </li>
-                <li class="navigation__items">
-                    <a href="#" class="navigation__link"></a>
-                    <span>01</span>blockchain
-                </li>
-                <li class="navigation__items">
-                    <a href="#" class="navigation__link"></a>
-                    <span>01</span>future
-                </li>
-
-            </ul>
-
+<body>
+    <header id="menu">
+        <nav>
+            <a href="index.html"><img src="./images/leopardo de las nieves.jpg" class="logo" alt="logo" width="100" height="50"></a>
+             <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="#">portafolio</a></li>
+                <li><a href="#">contactos</a></li>
+             </ul>
         </nav>
-
-
-       </div>
     </header>
+    <section class="presentacion">
+        <div class="flex-iteml">
+            <h1>diseñamos interfaces minimalistas que encantar y captivan</h1>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quibusdam fugit libero inventore quidem odio, dolorum earum voluptates itaque? Optio, vel nam veritatis ea ullam neque corrupti cum provident non.</p>
+             <div>
+                <button class="btn-principal" type="submit">comunicate</button>
+                <button class="btn-secundario" type="submit">portafolio</button>
+             </div>
+        </div>
+        <div class="flex-item2">
+            <img src="./images/leopardo de las nieves.jpg" alt="caratula"width= "500" height="400">
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <section class="servicios">
+            <div class="titulo-servicios">
+                <h2>creamos experiencias maravillosas para los usuarios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae, asperiores consequatur provident delectus modi totam doloremque libero ipsam cupiditate voluptatum repudiandae nulla, in aperiam. Dolores, libero? Nam, fugiat explicabo.</p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fasfa-drafting-compass"></i>
+                    <h3>diseño ux/ui</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolore tempore explicabo, numquam optio tempora quia maiores incidunt id, ex, impedit ab aperiam magni modi nulla dolores excepturi esse officiis.</p>
+                </div>
+            </div>
+            <div>
+                <i class="fasfa-laptop"></i>
+                <h3>desarrollo web</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem laudantium dignissimos ex officia obcaecati, quam, ut nisi a, deserunt voluptatibus maiores. Repudiandae ipsum quo accusantium, officiis illum nulla suscipit magni.</p>
+            </div>
+            <div>
+                <i class="fasfa-cart-arrow-down"></i>
+                <h3>comercio difital</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, accusantium natus. Deserunt eveniet suscipit harum. Fugit omnis rerum itaque adipisci laborum molestiae recusandae debitis aliquam similique! Dolorem laboriosam consequatur hic?</p>
+            </div>
+        </section>
+    </div>
+<footer>
+    <p class="footer-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, in blanditiis molestiae odit consectetur corporis cumque ex repudiandae et laboriosam recusandae ullam dolores ipsa animi eveniet, tenetur a enim sint.</p>
+</footer>
+<script>
+    const menu = document.getElementById('menu');
+    window.onscroll = function(){
+        if(window.pageYOffset){
+            menu.style.backgroundColor=´initial´;
+        }
+    }
+</script>
+</body>
+       
         

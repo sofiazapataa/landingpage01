@@ -1,18 +1,10 @@
-@mixin clearfix {
-   &::after{
-    content: "";
-    display: table;
-    clear: both;
-   }
-}
+@mixin caja-flex($principal,$cruzado, $wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
 
-@mixin absCenter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-
 //media query management brackpoints
 
 @mixin respond($breakpoint) {

@@ -16,6 +16,51 @@ $color-letras-light:rgb(214, 214, 214)
 //fonts
 
 $default-font-size 1.6rem;
+$font-p: 1.8rem;
+$font-h1: 3.0rem;
+$font-h2:2.4rem;
+$font-h3:2.0rem;
+
+p{
+    font-size: $font-p;
+    color: $color-letras-light;
+
+}
+h2{
+    font-size: $font-h2;
+    color: $color-letras-light;
+}
+h3{
+    font-size: $font-h3;
+    color: $color-letras-light;
+    font-weight: lighter;
+}
+.bnt{
+    border: none;
+    border-radius: 2px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+
+    &:hover{
+        transform: scale(1.1)
+    }
+}
+
+.btn-principal{
+    @extend .btn;
+    color: black;
+    background-color: grey;
+}
+.btn-secundario{
+    @extend .btn;
+    background-color: rgb(71, 70, 70);
+}
+
 
 //grid
 
@@ -23,3 +68,4 @@ $grid-with: 114rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-samll: 6rem;
 $gutter-horizontal: 6rem;
+

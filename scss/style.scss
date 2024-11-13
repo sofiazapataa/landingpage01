@@ -1,5 +1,6 @@
 @import"base./reset.";
 @import"base./base.";
+@import"base./typography.";
 
 @import"components./animaciones.";
 @import"components./cards.";
@@ -12,8 +13,6 @@
 @import"utilities./map.";
 @import"utilities./mixins.";
 @import"utilities./variables.";
-
-
 
 *{
     box-sizing: border-box;
