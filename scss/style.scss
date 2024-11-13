@@ -1,0 +1,25 @@
+@import"base./reset.";
+
+@import"components./animaciones.";
+@import"components./cards.";
+@import"components./navbar.";
+@import"components./colores.";
+
+@import"layout./footer.";
+@import"layout./header.";
+@import"layout./mainindex.";
+@import"layout./media-queries.";
+
+@import"utilities./fuction.";
+@import"utilities./map.";
+@import"utilities./mixins.";
+@import"utilities./variables.";
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
